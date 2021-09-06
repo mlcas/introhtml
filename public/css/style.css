@@ -1,0 +1,37 @@
+body{
+    font-family: 'Lato', sans-serif; /* lo traje de font.ggoglr*/
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 40;
+}
+
+p{
+    font-size: 30px;
+    line-height: 24px;
+}
+
+strong{
+    color: green;
+}
+
+p strong{ /* selector de tipo descendente */
+    background-color: orange;  
+    color:white;
+    font-style: italic;
+}
+.parrafo-destacado{
+    font-size: 30px;
+    color: salmon;
+    line-height: 38px; /* el interlineado tiene que ser 8 px mas que el font size*/
+}
+
+.parrafo-destacado em {
+    color: red;
+    text-transform: uppercase;
+}
